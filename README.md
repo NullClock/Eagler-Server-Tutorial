@@ -51,3 +51,5 @@ Now, finally we need to port forward with ngrok! This should be easy and you'll 
 
 ## Creating a 1.5.2 Server
 W.I.P (I'm lazy to complete this lol)
+
+![Alt](https://repobeats.axiom.co/api/embed/4df69500cea39a61868156d07b7ac419713826c6.svg "Repobeats analytics image")
