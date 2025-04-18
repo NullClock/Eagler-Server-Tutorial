@@ -17,14 +17,17 @@ Alright, let's get to it. Here are some requirements for your server:
    2. An [ngrok](https://ngrok.com/) account
 
 ###  Install ngrok:
-**Windows**: Open command prompt and run ``choco install ngrok``
-**Debian Linux**: Open your terminal and run ``curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
+**Windows**: Open command prompt and run ``choco install ngrok``<br>
+**Debian Linux**: Open your terminal and run 
+```
+curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
   | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
   && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" \
   | sudo tee /etc/apt/sources.list.d/ngrok.list \
   && sudo apt update \
-  && sudo apt install ngrok``
-  **Mac**: Open your terminal and run ``brew install ngrok``
+  && sudo apt install ngrok```<br>
+```
+**MacOS**: Open your terminal and run ``brew install ngrok``
 
 Done? Alright. So, first things first, we need to set up the actual (©) Minecraft server software, which for this tutorial we will use PaperMC, with a nice alternative being Cuberite. <br>
 Click the respective version to go to their section: <br>
