@@ -5,6 +5,13 @@ Every server version has a slightly different process and all of them will be pr
  - 1.12.2
  - 1.8.8
  - 1.5.2
+
+Non-major versions:
+ -  1.6.4 (unofficial)
+ -  Beta 1.7.3 (unofficial)
+ -  Beta 1.3 (unofficial)
+ -  Alpha 1.2.6 (unofficial)
+ -  Indev (unofficial)
 > [!NOTE]
 > 1.5.2 is the first ever Eaglercraft version, and 1.8.8 is the second and both are officially endorsed by lax1dude. All version above or below any of those two are unofficial and are not supported (with an exception for 1.12.2).
 
@@ -31,7 +38,7 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 
 Done? Alright. So, first things first, we need to set up the actual (©) Minecraft server software, which for this tutorial we will use PaperMC, with a nice alternative being Cuberite. <br>
 Click the respective version to go to their section: <br>
-[1.12.2 Server](#creating-a-1.12.2-server),  [1.8.8 Server](#creating-a-1.8.8-server),  [1.5.2 Server](#creating-a-1.5.2-server)
+[1.12.2 Server](https://github.com/NullClock/Eagler-Server-Tutorial/edit/main/README.md#creating-a-1122-server),  [1.8.8 Server](https://github.com/NullClock/Eagler-Server-Tutorial/edit/main/README.md#creating-a-188-server),  [1.5.2 Server](https://github.com/NullClock/Eagler-Server-Tutorial/edit/main/README.md#creating-a-152-server),  [1.6.4 Server](https://github.com/NullClock/Eagler-Server-Tutorial/edit/main/README.md#creating-a-164-server)
 
 ## Creating a 1.12.2 Server
 Go to the [all builds page](https://papermc.io/downloads/all) at [papermc.io](https://papermc.io) and find 1.12.2 in the sidebar, and make sure you're getting build #1620. The file should download into your computer. Make sure to put the ``.jar`` file into its own folder or else your Desktop/Downloads folder will get really cluttered and things will be hard to find. When you've done that, make sure you have Java 11 or higher installed, and run the file! You'll see the folder start to populate with files and the server will eventually exit, telling you to accept the EULA to continue. Go into eula.txt and change whatever's after the ``=`` to ``true``. Now, run the ``.jar`` file again.<br><br>
@@ -41,6 +48,7 @@ Okay, now, we can get Bungee from by going to [this](http://ci.md-5.net/job/Bung
 <br><br>
  When you download the file, move it to the ``plugins`` folder in your bungeecord stuff, restart your server and leave it open, make sure your paper server is up too. You can't close the terminal/command prompt popups or your server will go down.
 Now, finally we need to port forward with ngrok! This should be easy and you'll need your ngrok account. Go to [dashboard.ngrok.com](https://dashboard.ngrok.com), choose your OS, and copy the 2 last commands, and finally run it in a new/spearate terminal or command prompt, but replace the 8080 in the last command with 8081 for eagler. If you want java support, run the last commands AGAIN in another terminal, but change 8080 to 25565 instead. You can either: choose a custom link in the ngrok dashboard, get a random one when you run the command, or link your own domain in the ngrok dashboard. Now, FINALLY, you can join your server by either pasting the link (remove the https!) in Eaglercraft or pasting the second link in Java 1.12.2!
+
 ## Creating a 1.8.8 Server
 This section describes the process of making a publicly accessible EaglercraftX server.
 #### Getting Started:
@@ -54,5 +62,8 @@ Now, finally we need to port forward with ngrok! This should be easy and you'll 
 
 ## Creating a 1.5.2 Server
 W.I.P (I'm lazy to complete this lol)
+
+## Creating a 1.6.4 Server
+Use [this](https://github.com/catfoolyou/Eagler-Server-1.6.4) repo as a starter.
 
 ![Alt](https://repobeats.axiom.co/api/embed/4df69500cea39a61868156d07b7ac419713826c6.svg "Repobeats analytics image")
